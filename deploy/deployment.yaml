@@ -5,7 +5,7 @@ metadata:
     app: omsnet
   name: omsnet
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: omsnet
@@ -15,7 +15,7 @@ spec:
         app: omsnet
     spec:
       containers:
-      - image: docker.io/ianyoungjunehong/omsnet:1
+      - image: docker.io/ianyoungjunehong/omsnet:2
         name: omsnet
         ports:
         - containerPort: 80
