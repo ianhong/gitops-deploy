@@ -15,7 +15,7 @@ spec:
         app: omsnet
     spec:
       containers:
-      - image: docker.io/ianyoungjunehong/omsnet:2
+      - image: docker.io/ianyoungjunehong/omsnet:1
         name: omsnet
         ports:
         - containerPort: 80
